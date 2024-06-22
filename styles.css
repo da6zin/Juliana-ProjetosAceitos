@@ -97,7 +97,6 @@ tbody tr:nth-child(even) {
 }
 
 
-/* Estilos para a sidebar */
 .sidebar {
     height: 100%;
     width: 0;
@@ -108,7 +107,7 @@ tbody tr:nth-child(even) {
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 80px; /* Ajustado de 60px para 100px para adicionar 40px a mais */
+    padding-top: 80px; 
     box-shadow: -3px 0 5px rgba(0,0,0,0.2);
 }
 
@@ -142,7 +141,7 @@ tbody tr:nth-child(even) {
 .menu {
     display: flex;
     align-items: center;
-    gap: 30px; /* Espaço entre os ícones de 30px */
+    gap: 30px; 
 }
 
 .menu img {
@@ -154,7 +153,7 @@ tbody tr:nth-child(even) {
     background: none;
     border: none;
     padding: 0;
-    margin-right: 30px; /* Margem à direita de 30px */
+    margin-right: 30px;
     cursor: pointer;
 }
 
