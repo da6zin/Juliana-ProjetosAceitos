@@ -10,14 +10,14 @@ document.getElementById('search-button').addEventListener('click', function() {
             rows[i].classList.add('highlight');
             rows[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
 
-            // Highlight the search term within the project name
+         
             const originalText = cells[0].innerText;
             const regex = new RegExp(`(${searchInput})`, 'gi');
             const highlightedText = originalText.replace(regex, '<span class="highlight-text">$1</span>');
             cells[0].innerHTML = highlightedText;
         } else {
             rows[i].classList.remove('highlight');
-            cells[0].innerHTML = cells[0].innerText; // Reset the content
+            cells[0].innerHTML = cells[0].innerText; 
         }
     }
 });
